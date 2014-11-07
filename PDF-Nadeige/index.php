@@ -21,7 +21,7 @@
 	foreach ($cities as $city) {
 		/*print_r($city);
 		die();*/
-	$pdf->Cell(40,10,$city['name'],0,2,'C');
+	$pdf->Cell(40,10,utf8_decode($city['name']),0,2,'C');
 	}
 	$pdf->Output();
 
