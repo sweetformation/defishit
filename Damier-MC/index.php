@@ -13,7 +13,7 @@
 				<tbody>
 				<?php 
 					// Définition des variables utiles
-					$nb_cases = 9;
+					$nb_cases = 10;
 					// une ligne du damier = array de nb_cases
 					$ligne = array();
 					for ($i=0; $i<$nb_cases+0; $i++) {
