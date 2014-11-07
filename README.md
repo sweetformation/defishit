@@ -44,34 +44,34 @@ Thomas
 ###Les défishits
 
 
-#####Movie
+#####Movie = Nadeige
 Créer un formulaire comportant un seul champs : "titre du film à chercher". Sur soumission du formulaire, récupérer toutes les infos disponibbles sur ce film depuis omdbapi, et les afficher toutes, sous le formulaire. 
 
-#####Damier
+#####Damier = MC
 Afficher un damier en HTML et PHP, de 9 cases par 9 cases, alternant des carrés, sans marge, noir et blanc
 
-#####Polices
+#####Polices = Marcelo/MC
 Créer une page HTMl qui affiche une fois sur deux, par alternance, son contenu en police "Comic", une fois sur deux en "Verdana".
 
-#####RSS
+#####RSS = Marcelo
 Récupérer les offres RSS depuis https://remixjobs.com/rss?for=php+junior&at=Paris%2C+France&lat=48.856614&lng=2.3522219000000177&dist=10&page=1&in=all et en afficher tous les titres dans des liens vers l'offre complète. Les liens sont affichés dans des li dans un ul. 
 
-#####Décollage
+#####Décollage = Marcelo/MC
 Créer un script PHP affichant un compte à rebours de 10 à 0 à l'écran (à chaque seconde, le chiffre suivant s'affiche à l'écran, sous le précédent). Une seconde après l'affichage du zéro, une vidéo youtube d'un décollage d'une fusée apparait dans la page. Aucun javascript autorisé.
 
-#####Jours
+#####Jours = MC
 Afficher toutes les dates (pour chaque journée) entre le 1 janvier 2016 et le 31 décembre 2016 dans un ul / li, au format jj/mm/aaaa
 
-#####Thumbs
+#####Thumbs = Nadeige
 Générer en PHP (une seule fois) des images carrés en noir et blanc de 111 px par 191px à partir des images dans le dossier img. Le script doit fonctionner avec n'importe quel nombre d'images, peu importe leurs noms. Ajouter en bas à droite des images un filigrane mentionnant : WF3, en police roboto. 
 
-#####Gras
+#####Gras = MC
 Créer une fonction qui affiche un mot sur deux en gras, dans n'importe quelle phrase. La fonction reçoit la phrase en paramètre, et l'affiche avec un mot sur deux en gras. 
 
-#####CSV
+#####CSV = Marcelo
 Créer une page HTML/PHP comportant un seul bouton : "exporter en csv". Sur clic sur le bouton, le contenu de la table "country" dans la bdd "world" doit être téléchargé dans un fichier .csv lisible dans un tableur. 
 
-#####Suicide
+#####Suicide = MC
 Créer un fichier .php qui s'autodétruit après avoir affiché à l'écran le mot "bye bye". Le fichier doit réellement être effacé. 
 
 #####Regexp
@@ -81,10 +81,10 @@ Démontrer que votre regexp fonctionne avec plusieurs appels de la fonction preg
 #####Wallpapers
 Créer un script PHP permettant de télécharger automatiquement les images wallpapers (au format 1600pixels) présentes sur http://ngm.nationalgeographic.com/wallpaper/2013/august-ngm-wallpaper  Le script doit fonctionner pour tous les mois. 
 
-#####PDF
+#####PDF = Nadeige
 Générer, par un script PHP/MySQL, un document PDF affichant la liste de toutes les villes de plus de 2 200 000 habitants de la base de données "world". Il ne doit pas y avoir d'erreur d'encodage. 
 
-#####Méthodes
+#####Méthodes = MC
 Faire afficher, de manière automatique, toutes les méthodes de la classe PHP "DateTime" dans des h3. 
 
 #####Migration
