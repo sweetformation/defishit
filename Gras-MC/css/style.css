@@ -1,0 +1,21 @@
+@import "reset.css";
+
+
+#container {
+	margin: 50px auto;
+	width: 60%;
+}
+
+#container p {
+	padding-bottom: 10px;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	padding: 20px 0;
+}
+
+strong {
+	font-weight: 700;
+}

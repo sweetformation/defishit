@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div id="container">
-		<h1>Damier</h1>
+			<h1>Damier</h1>
 			<table id="damier">
 				<tbody>
 				<?php 
@@ -42,8 +42,5 @@
 				</tbody>
 			</table>
 		</div>
-
-		<script src="../js/jquery.js"></script>
-		<script src="../js/app.js"></script>
 	</body>
 </html>
