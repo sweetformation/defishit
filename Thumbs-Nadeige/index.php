@@ -16,7 +16,7 @@ $dirname = './img/';
 
 		$img = new abeautifulsite\SimpleImage("img/" . $file);
 		//$img->thumbnail(111,191)->desaturate()->overlay('uploads/WF3.png', 'bottom right', .5, -10, -10)->save("uploads/thumbs/" . $file);
-		$img->thumbnail(111,191)->desaturate()->text('WF3', 'Roboto/Roboto-Black.ttf', 24, '#fff', 'bottom', 20, 0)->save("uploads/thumbs/" . $file);
+		$img->thumbnail(191,111)->desaturate()->text('WF3', 'Roboto/Roboto-Black.ttf', 24, '#fff', 'bottom', 20, 0)->save("uploads/thumbs/" . $file);
 
 		?>
 			<img src="uploads/thumbs/<?php echo $file?>" title="<?php echo $file; ?>">
