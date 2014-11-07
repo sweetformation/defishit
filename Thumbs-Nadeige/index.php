@@ -1,7 +1,5 @@
 <?php
-
-
-
+require("vendor/abeautifulsite/simpleimage/src/abeautifulsite/SimpleImage.php");
 // nom du répertoire qui contient les images
 $dirname = './img/';
 
@@ -14,16 +12,14 @@ $dirname = './img/';
 
 			//manipulation de l'image
 			//avec SimpleImage
-		require("vendor/abeautifulsite/simpleimage/src/abeautifulsite/SimpleImage.php");
+
 
 		$img = new abeautifulsite\SimpleImage("img/" . $file);
 		$img->thumbnail(111,191)->desaturate()->save("uploads/thumbs/" . $file);
 
-		echo $file;
-
-		?><div>
+		?>
 			<img src="uploads/thumbs/<?php echo $file?>" title="<?php echo $file; ?>">
-		</div><?php
+		<?php
 
            }
 
