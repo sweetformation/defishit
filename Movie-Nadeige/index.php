@@ -4,14 +4,12 @@
 $title = "";
 if (!empty($_POST['t'])){
     $title = $_POST['t'];
-}
-
 $json_url = "http://www.imdbapi.com/?t=$title";
 $json = file_get_contents($json_url);
 $recherche = json_decode($json, TRUE);
 
+}
 ?>
-
 
 <!doctype html>
 <html>
@@ -37,11 +35,7 @@ $recherche = json_decode($json, TRUE);
         <input type="submit" value="Rechercher" alt="Lancer la recherche!">
     </form>
 
-<?php /*echo "<pre>";
-print_r($recherche);
-echo "</pre>";*/
-
-?>
+<?php if (!empty($recherche)) { ?>
 
 <div class="fieldset">
 	<label>TITRE DU FILM : <?php echo $recherche['Title']; ?>
@@ -77,8 +71,11 @@ echo "</pre>";*/
 	<label>PAYS : <?php echo $recherche['Country']; ?>
 	</div>
 
+<?php } ?>
 
 </div>
+
+
 
 		<script src="../js/jquery.js"></script>
 		<script src="../js/app.js"></script>

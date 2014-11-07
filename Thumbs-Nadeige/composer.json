@@ -1,0 +1,12 @@
+{
+    "name": "Etudiant/thumbs-nadeige",
+    "require": {
+        "abeautifulsite/simpleimage": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "nadeige",
+            "email": "nadeige.couthon@orange.fr"
+        }
+    ]
+}

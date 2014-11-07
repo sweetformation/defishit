@@ -19,9 +19,8 @@
 	$pdf->SetFont('Arial','B',16);
 	$pdf->Cell(40,10,'Les pays de plus de 2 200 000 ',0,1);
 	foreach ($cities as $city) {
-		/*print_r($city);
-		die();*/
-	$pdf->Cell(40,10,utf8_decode($city['name']),0,2,'C');
+
+			$pdf->Cell(40,10,utf8_decode($city['name']),0,2,'C');
 	}
 	$pdf->Output();
 
