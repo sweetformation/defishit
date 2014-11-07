@@ -1,13 +1,3 @@
-<?php
-
-
-
-
-?>
-
-
-
-
 <!doctype html>
 <html>
 	<head>
@@ -27,14 +17,23 @@
 
 $start = new DateTime('2016-01-01');
 $end = new DateTime('2016-12-31');
-foreach (new DatePeriod($start, new DateInterval('P1D') /* pas d'un jour */, $end) as $dt) {
 
-$unix = strtotime(date("Y-m-d"));
-echo date("d-m-Y", $unix);
-<?php <br> ?>
+ ?> <ul> <?php
+
+foreach (new DatePeriod($start, new DateInterval('P1D') /* pas d'un jour */, $end) as $dt) { ?>
+
+
+
+	<li>
+<?php echo $dt->format('d-m-Y'); ?>
+	</li>
+
+
+
+<?php
 }
 ?>
-
+<ul>
 
 		<script src="../js/jquery.js"></script>
 		<script src="../js/app.js"></script>
