@@ -74,11 +74,11 @@ Créer une page HTML/PHP comportant un seul bouton : "exporter en csv". Sur clic
 #####Suicide = MC
 Créer un fichier .php qui s'autodétruit après avoir affiché à l'écran le mot "bye bye". Le fichier doit réellement être effacé. 
 
-#####Regexp
+#####Regexp = MC
 Créer une seule expression rationnelle permettant de valider les identifiants produits d'une boutique. Certains de leurs identifiants ressemblent à ça : abcdef-999 et d'autres à ça : abcde.abc  
 Démontrer que votre regexp fonctionne avec plusieurs appels de la fonction preg_match et des identifiants de tests. 
 
-#####Wallpapers
+#####Wallpapers = MC
 Créer un script PHP permettant de télécharger automatiquement les images wallpapers (au format 1600pixels) présentes sur http://ngm.nationalgeographic.com/wallpaper/2013/august-ngm-wallpaper  Le script doit fonctionner pour tous les mois. 
 
 #####PDF = Nadeige

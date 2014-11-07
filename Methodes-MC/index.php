@@ -1,9 +1,11 @@
 <?php
+	
+	use \DateTime;
 
-	$methods = get_class_methods('DateTime');
+	$class_methods = get_class_methods(new DateTime());
 
-	foreach ($methods as $method) {
-	    echo '<h3>$method</h3>';
+	foreach ($class_methods as $method_name) {
+	    echo '<h3>'.$method_name.'</h3>';
 	}
 
 ?>

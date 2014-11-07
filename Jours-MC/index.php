@@ -15,11 +15,14 @@
 		$fin = new DateTime( '2016-12-31' );
 
 		$interval = new DateInterval('P1D');
-		$daterange = new DatePeriod($debut, $interval ,$fin);
+		$daterange = new DatePeriod($debut, $interval ,$fin); 
 
+		echo '<ul>';
 		foreach($daterange as $date){
-		    echo $date->format("d-m-Y") . "<br>";
+		    echo '<li>' . $date->format("d-m-Y") . "</li>";
 		}
+		echo '</ul>';
+		
 	?>
 
 	</body>
