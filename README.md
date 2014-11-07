@@ -12,7 +12,7 @@
 * Je ne me déplace que pour 3 défis à valider minimum
 * À 17h20, je termine la validation en cours, et c'est game over pour les autres. 
 * Chaque membre de l'équipe doit arrêter de travailler sur les défishits pendant au moins 1h dans la journée.
-* Les membres de l'équipe gagnante remporte un chocobon 
+* L'équipe gagnante remporte un gros paquet de schoko-bons
 
 --------------
 
