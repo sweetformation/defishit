@@ -8,4 +8,4 @@
 	    echo '<h3>'.$method_name.'</h3>';
 	}
 
-?>
+
